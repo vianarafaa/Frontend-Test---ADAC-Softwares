@@ -1,0 +1,23 @@
+.navbar-section {
+    background-color: var(--dark-background);
+
+    nav {
+        padding: 1rem 0.5rem;
+        gap: 3rem;
+
+        img {
+            width: 50%;
+        }
+
+        div {
+            align-items: center;
+
+            .login-button {
+                font-size: 0.875rem;
+                border: 1px solid #fff;
+                padding: 0.5rem 2rem;
+                text-align: center;
+            }
+        }
+    }
+}
