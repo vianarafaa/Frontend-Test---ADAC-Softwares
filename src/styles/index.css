@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import './sections/navbar.css';
+@import './sections/hero.css';
+@import './sections/features.css';
+@import './sections/contents.css';
+@import './sections/gallery.css';
+@import './sections/partners.css';
+@import './sections/testimonials.css';
+@import './sections/opentype.css';
+@import './sections/footer.css';
+
+@import 'tailwindcss';
+
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+
+    --dark-background: #181818;
+    --grey-background: #1e1e1e;
+
+    --text-color: #fff;
+    --button-color: #4452fe;
+}
+
+* {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+}
