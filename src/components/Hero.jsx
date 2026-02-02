@@ -2,12 +2,12 @@ export default function Hero() {
     return (
         <section class="hero-section">
             <div>
-                <div class="hero-text flex text-center flex-col">
-                    <h1 class="text-5xl pb-4">Work at the speed of thought.</h1>
-                    <h2 class="text-xl font-extralight">
+                <div class="hero-texts flex text-center flex-col p-14">
+                    <h1 class="text-5xl pb-4 font-light">Work at the speed of thought.</h1>
+                    <p class="text-xl font-extralight">
                         Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their
                         schedule.
-                    </h2>
+                    </p>
                 </div>
                 <div class="buttons flex flex-col items-center gap-5">
                     <button class="try-btn py-5 px-10">Try For Free</button>

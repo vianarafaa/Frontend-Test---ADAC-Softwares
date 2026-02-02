@@ -1,10 +1,6 @@
 .hero-section {
     background-color: var(--dark-background);
     div {
-        .hero-text {
-            padding: 3.5625rem;
-        }
-
         .buttons {
             padding-bottom: 3.5625rem;
 
