@@ -3,10 +3,10 @@
 
     nav {
         padding: 1rem 0.5rem;
-        gap: 3rem;
 
         img {
-            width: 50%;
+            width: 35%;
+            padding-left: 1rem;
         }
 
         div {
@@ -15,8 +15,12 @@
             .login-button {
                 font-size: 0.875rem;
                 border: 1px solid #fff;
-                padding: 0.5rem 2rem;
+                padding: 0.425rem 2rem;
                 text-align: center;
+            }
+
+            img {
+                width: 30%;
             }
         }
     }
