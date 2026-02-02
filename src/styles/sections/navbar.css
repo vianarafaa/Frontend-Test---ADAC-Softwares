@@ -4,14 +4,12 @@
     nav {
         padding: 1rem 0.5rem;
 
-        img {
-            width: 35%;
+        .logo-img {
+            width: 40%;
             padding-left: 1rem;
         }
 
         div {
-            align-items: center;
-
             .login-button {
                 font-size: 0.875rem;
                 border: 1px solid #fff;
@@ -19,7 +17,7 @@
                 text-align: center;
             }
 
-            img {
+            .menu-img {
                 width: 30%;
             }
         }
