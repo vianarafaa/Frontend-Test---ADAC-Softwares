@@ -1,0 +1,8 @@
+.testimonials-section {
+    background-color: var(--dark-background);
+    padding-bottom: 3.125rem;
+
+    .testimonial-card {
+        border: 1px solid #565656;
+    }
+}
