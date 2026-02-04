@@ -1,27 +1,26 @@
 .hero-section {
     background-color: var(--dark-background);
-    div {
-        .buttons {
-            padding-bottom: 3.5625rem;
 
-            .try-btn {
-                background-color: var(--button-color);
-            }
+    .buttons {
+        padding-bottom: 3.5625rem;
 
-            .learn-btn {
-                border: 1px solid #fff;
-            }
+        .try-btn {
+            background-color: var(--button-color);
         }
 
-        .img-wrapper {
-            &::after {
-                content: '';
-                position: absolute;
-                inset: 0;
+        .learn-btn {
+            border: 1px solid #fff;
+        }
+    }
 
-                background: linear-gradient(to bottom, #1e1e1e00, #0e0e0e);
-                pointer-events: none;
-            }
+    .img-wrapper {
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+
+            background: linear-gradient(to bottom, #1e1e1e00, #0e0e0e);
+            pointer-events: none;
         }
     }
 }

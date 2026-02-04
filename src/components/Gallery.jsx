@@ -2,11 +2,9 @@ export default function Gallery() {
     return (
         <section class="gallery-section" id="gallery-section">
             <div class="flex text-center flex-col pt-36 px-12">
-                <div class="contents-texts">
+                <div class="gallery-texts">
                     <h1 class="text-5xl pb-4 font-light">Gallery</h1>
-                    <p class="text-xl font-extralight">
-                        We focus on ergonomics and meeting you where you work. It's only a keystroke away.
-                    </p>
+                    <p class="text-xl font-light">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
                     <div class="gallery-imgs pb-4">
                         <ul>
                             <li>
