@@ -1,6 +1,6 @@
 export default function Features() {
     return (
-        <section class="features-section">
+        <section class="features-section" id="features-section">
             <div>
                 <div class="features-texts flex text-center flex-col gap-7 pt-36 px-10">
                     <h1 class="text-5xl pb-4 font-light">FEATURES</h1>

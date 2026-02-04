@@ -1,0 +1,27 @@
+.contents-section {
+    background-color: var(--dark-background);
+    padding-bottom: 3.125rem;
+
+    .contents-texts {
+        padding-bottom: 2.625rem;
+    }
+
+    .contents-cards {
+        .contents-card {
+            background-color: #fff;
+
+            h2 {
+                color: #000;
+            }
+
+            p {
+                color: #5c5c5c;
+            }
+
+            .card-btn {
+                background-color: var(--button-color);
+                padding: 0.85rem 2.875rem;
+            }
+        }
+    }
+}

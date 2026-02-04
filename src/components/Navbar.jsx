@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <section class="navbar-section">
+        <section class="navbar-section" id="navbar">
             <div>
                 <nav class="flex justify-between">
                     <img src="./public/navbar/logo-dark.svg" alt="Figma Land Logo" class="logo-img" />
