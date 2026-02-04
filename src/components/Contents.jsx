@@ -16,7 +16,10 @@ export default function Contents() {
                         <img src="./public/contents/macbook.svg" alt="Transactions screen" class="pt-14" />
                     </div>
                     <div class="contents-card px-7 py-10 rounded-xl">
-                        <h2 class="font-medium text-xl pb-4">Design with real data</h2>
+                        <h2 class="font-medium text-xl pb-4">
+                            Design with <br />
+                            real data
+                        </h2>
                         <p class="font-light pb-14">Ever wondered if you're too reliant on a client for work? Slate helps you identify.</p>
                         <button class="card-btn font-medium">Try For Free</button>
                         <img src="./public/contents/board.svg" alt="Transactions screen" class="pt-14" />

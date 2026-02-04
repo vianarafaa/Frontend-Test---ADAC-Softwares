@@ -26,3 +26,7 @@
     font-family: var(--primary-font);
     color: var(--text-color);
 }
+
+button {
+    cursor: pointer;
+}

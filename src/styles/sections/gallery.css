@@ -1,0 +1,9 @@
+.gallery-section {
+    background-color: var(--dark-background);
+    padding-bottom: 3.125rem;
+
+    .see-more-btn {
+        border: 1px solid #fff;
+        padding: 0.843rem 2.5rem;
+    }
+}
