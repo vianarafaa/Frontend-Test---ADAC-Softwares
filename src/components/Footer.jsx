@@ -55,27 +55,27 @@ export default function Footer() {
                 </div>
                 <div>
                     <div class="flex pb-2.5">
-                        <img src="./public/footer/pin.svg" alt="" class="w-9" />
+                        <img src="/footer/pin.svg" alt="" class="w-9" />
                         <p class="font-medium self-center">7480 Mockingbird Hill undefined </p>
                     </div>
                     <div class="flex">
-                        <img src="./public/footer/phone.svg" alt="" class="w-8" />
+                        <img src="/footer/phone.svg" alt="" class="w-8" />
                         <p class="font-medium self-center">(239) 555-0108</p>
                     </div>
                     <ul class="flex pt-7 gap-6">
                         <li class="">
                             <a href="">
-                                <img src="./public/footer/twitter.svg" alt="" />
+                                <img src="/footer/twitter.svg" alt="" />
                             </a>
                         </li>
                         <li class="">
                             <a href="">
-                                <img src="./public/footer/facebook.svg" alt="" />
+                                <img src="/footer/facebook.svg" alt="" />
                             </a>
                         </li>
                         <li class="">
                             <a href="">
-                                <img src="./public/footer/linkedin.svg" alt="" />
+                                <img src="/footer/linkedin.svg" alt="" />
                             </a>
                         </li>
                     </ul>

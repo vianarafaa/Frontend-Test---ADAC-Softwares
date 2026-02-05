@@ -10,26 +10,26 @@ export default function Partners() {
                     <div>
                         <ul class="flex gap-12">
                             <li>
-                                <img src="./public/partners/logos_apple-app-store.svg" alt="App Store Logo" />
+                                <img src="/partners/logos_apple-app-store.svg" alt="App Store Logo" />
                             </li>
                             <li>
-                                <img src="./public/partners/logos_apiary.svg" alt="Apiary Logo" />
+                                <img src="/partners/logos_apiary.svg" alt="Apiary Logo" />
                             </li>
                             <li>
-                                <img src="./public/partners/logos_android-icon.svg" alt="Android Logo" />
+                                <img src="/partners/logos_android-icon.svg" alt="Android Logo" />
                             </li>
                         </ul>
                     </div>
                     <div>
                         <ul class="flex gap-12">
                             <li>
-                                <img src="./public/partners/logos_basecamp.svg" alt="Basecamp Logo" />
+                                <img src="/partners/logos_basecamp.svg" alt="Basecamp Logo" />
                             </li>
                             <li>
-                                <img src="./public/partners/logos_airbnb.svg" alt="Airbnb Logo" />
+                                <img src="/partners/logos_airbnb.svg" alt="Airbnb Logo" />
                             </li>
                             <li>
-                                <img src="./public/partners/logos_ibm.svg" alt="IBM Logo" />
+                                <img src="/partners/logos_ibm.svg" alt="IBM Logo" />
                             </li>
                         </ul>
                     </div>

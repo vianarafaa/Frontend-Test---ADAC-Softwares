@@ -8,16 +8,16 @@ export default function Gallery() {
                     <div class="gallery-imgs pb-4">
                         <ul>
                             <li>
-                                <img src="./public/gallery/mobile-img1.svg" alt="" />
+                                <img src="/gallery/mobile-img1.svg" alt="" />
                             </li>
                             <li>
-                                <img src="./public/gallery/mobile-img2.svg" alt="" />
+                                <img src="/gallery/mobile-img2.svg" alt="" />
                             </li>
                             <li>
-                                <img src="./public/gallery/mobile-img3.svg" alt="" />
+                                <img src="/gallery/mobile-img3.svg" alt="" />
                             </li>
                             <li>
-                                <img src="./public/gallery/mobile-img4.svg" alt="" />
+                                <img src="/gallery/mobile-img4.svg" alt="" />
                             </li>
                         </ul>
                     </div>

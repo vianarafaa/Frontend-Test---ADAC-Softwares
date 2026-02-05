@@ -8,24 +8,24 @@ export default function Features() {
                 </p>
             </div>
             <div class="features flex items-center flex-col px-10 pt-7 gap-7">
-                <img src="./public/features/feature-mobile.svg" alt="Calendar feature image" class="calendar-img" />
+                <img src="/features/feature-mobile.svg" alt="Calendar feature image" class="calendar-img" />
                 <div class="features-blocks flex flex-col px-5">
                     <div class="flex flex-row text-left pb-4">
-                        <img src="./public/features/single-source.svg" alt="" class="features-icons" />
+                        <img src="/features/single-source.svg" alt="" class="features-icons" />
                         <h2 class="text-xl font-medium pl-4">A single source of truth</h2>
                     </div>
                     <p class="font-light">When you add work to your Slate calendar we automatically calculate useful insights</p>
                 </div>
                 <div class="features-blocks flex flex-col px-5">
                     <div class="flex flex-row text-left pb-4">
-                        <img src="./public/features/intuitive.svg" alt="" class="features-icons" />
+                        <img src="/features/intuitive.svg" alt="" class="features-icons" />
                         <h2 class="text-xl font-medium pl-4">Intuitive interface</h2>
                     </div>
                     <p class="font-light">When you add work to your Slate calendar we automatically calculate useful insights</p>
                 </div>
                 <div class="features-blocks flex flex-col px-5">
                     <div class="flex flex-row text-left pb-4">
-                        <img src="./public/features/rules.svg" alt="" class="features-icons" />
+                        <img src="/features/rules.svg" alt="" class="features-icons" />
                         <h2 class="text-xl font-medium pl-4">Or with rules</h2>
                     </div>
                     <p class="font-light">When you add work to your Slate calendar we automatically calculate useful insights</p>

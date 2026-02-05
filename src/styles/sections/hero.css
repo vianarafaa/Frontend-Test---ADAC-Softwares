@@ -2,8 +2,6 @@
     background-color: var(--dark-background);
 
     .buttons {
-        padding-bottom: 3.5625rem;
-
         .try-btn {
             background-color: var(--button-color);
         }
@@ -14,6 +12,8 @@
     }
 
     .img-wrapper {
+        padding-top: 3.5625rem;
+
         &::after {
             content: '';
             position: absolute;
@@ -22,5 +22,11 @@
             background: linear-gradient(to bottom, #1e1e1e00, #0e0e0e);
             pointer-events: none;
         }
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-texts {
+        padding: 5.3125rem 26.5625rem;
     }
 }
