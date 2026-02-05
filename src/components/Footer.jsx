@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section class="footer-section">
+        <section class="footer-section" id="footer-section">
             <footer class="flex text-start flex-col py-24 px-18">
                 <div class="pb-16">
                     <h3 class="text-xl font-medium pb-10">Fingertipe</h3>
