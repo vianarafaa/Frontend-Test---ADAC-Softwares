@@ -1,8 +1,12 @@
 .opentype-section {
-    background-color: var(--grey-background);
+    background-color: var(--dark-background);
 
-    .try-btn {
-        padding: 0.84375rem 4.1875rem;
-        background-color: var(--button-color);
+    .opentype-box {
+        background-color: var(--grey-background);
+
+        .try-btn {
+            padding: 0.84375rem 4.1875rem;
+            background-color: var(--button-color);
+        }
     }
 }
