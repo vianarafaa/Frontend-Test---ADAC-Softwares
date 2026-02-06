@@ -4,25 +4,26 @@ export default function Contents() {
             <div class="flex text-center flex-col pt-36 px-12">
                 <div class="contents-texts">
                     <h1 class="text-5xl pb-4 font-light">Contents</h1>
-                    <p class="text-xl font-extralight">
-                        We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                    <p class="text-xl font-light">
+                        We focus on ergonomics and meeting you where you work.
+                        <br /> It's only a keystroke away.
                     </p>
                 </div>
-                <div class="contents-cards flex flex-col gap-8">
-                    <div class="contents-card px-7 py-10 rounded-xl">
-                        <h2 class="font-medium text-xl pb-4">Work</h2>
+                <div class="contents-cards flex flex-col gap-8 lg:flex-row lg:justify-center">
+                    <div class="contents-card px-7 py-10 rounded-xl lg:flex lg:flex-col lg:w-2/6 lg:py-0 lg:pt-10">
+                        <h2 class="font-medium text-xl pb-4 lg:pb-5">Work</h2>
                         <p class="font-light pb-14">Ever wondered if you're too reliant on a client for work? Slate helps you identify.</p>
-                        <button class="card-btn font-medium">Sign Up</button>
+                        <button class="card-btn font-medium lg:self-center">Sign Up</button>
                         <img src="/contents/macbook.svg" alt="Transactions screen" class="pt-14" />
                     </div>
-                    <div class="contents-card px-7 py-10 rounded-xl">
-                        <h2 class="font-medium text-xl pb-4">
-                            Design with <br />
+                    <div class="contents-card px-7 py-10 rounded-xl lg:w-2/6 lg:flex lg:flex-col lg:py-0 lg:pt-10">
+                        <h2 class="font-medium text-xl pb-4 lg:pb-5">
+                            Design with <br class="lg:hidden" />
                             real data
                         </h2>
                         <p class="font-light pb-14">Ever wondered if you're too reliant on a client for work? Slate helps you identify.</p>
-                        <button class="card-btn font-medium">Try For Free</button>
-                        <img src="/contents/board.svg" alt="Transactions screen" class="pt-14" />
+                        <button class="card-btn font-medium lg:self-center">Try For Free</button>
+                        <img src="/contents/board.svg" alt="Transactions screen" class="pt-14 lg:pt-6" />
                     </div>
                 </div>
             </div>
