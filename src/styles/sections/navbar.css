@@ -2,7 +2,21 @@
     background-color: var(--dark-background);
 
     nav {
+        ul {
+            background-color: var(--dark-background);
+            li {
+                cursor: pointer;
+                border-bottom: 2px solid transparent;
+                transition: all 0.5s;
+
+                &:hover {
+                    border-bottom: 2px solid #fff;
+                }
+            }
+        }
+
         .logo-img {
+            cursor: pointer;
             width: 40%;
             padding-left: 1rem;
         }
@@ -25,6 +39,9 @@
 @media (min-width: 1024px) {
     .navbar-section {
         nav {
+            ul {
+                background-color: transparent;
+            }
             .logo-img {
                 width: unset;
                 padding-left: 0;
