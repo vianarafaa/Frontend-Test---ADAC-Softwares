@@ -63,7 +63,6 @@ export default function Testimonials() {
                         </p>
                     </div>
                 </div>
-
                 <div class="hidden lg:grid grid-cols-[400px_400px] justify-center gap-5">
                     <div class="testimonial-card flex flex-col p-10 rounded-xl">
                         <div class="flex flex-row text-left pb-4">
