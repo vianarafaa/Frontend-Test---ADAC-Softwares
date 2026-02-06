@@ -43,6 +43,9 @@ A aplicação foi construída utilizando React + Vite, com foco em:
 
 * Utilizando principalmente Flexbox, Grid e media queries.
 
+
+## Estrutura do projeto
+
 ```bash
 public/          # Imagens e ícones
 │
