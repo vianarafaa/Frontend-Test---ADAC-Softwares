@@ -1,58 +1,61 @@
 export default function Footer() {
     return (
         <section class="footer-section" id="footer-section">
-            <footer class="flex text-start flex-col py-24 px-18">
-                <div class="pb-16">
-                    <h3 class="text-xl font-medium pb-10">Fingertipe</h3>
-                    <ul>
-                        <li class="font-medium pb-5">
-                            <a href="">Home</a>
-                        </li>
-                        <li class="font-medium pb-5">
-                            <a href="">Examples</a>
-                        </li>
-                        <li class="font-medium pb-5">
-                            <a href="">Pricing</a>
-                        </li>
-                        <li class="font-medium">
-                            <a href="">Updates</a>
-                        </li>
-                    </ul>
+            <footer class="flex text-start flex-col py-24 px-18 lg:flex-row lg:justify-between lg:px-64">
+                <div class="flex flex-col gap-16 pb-16 lg:flex lg:flex-row lg:pb-0">
+                    <div class="">
+                        <h3 class="text-xl font-medium pb-10">Fingertipe</h3>
+                        <ul>
+                            <li class="font-medium pb-5">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="font-medium pb-5">
+                                <a href="">Examples</a>
+                            </li>
+                            <li class="font-medium pb-5">
+                                <a href="">Pricing</a>
+                            </li>
+                            <li class="font-medium">
+                                <a href="">Updates</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="text-xl font-medium pb-10">Resources</h3>
+                        <ul>
+                            <li class="font-medium pb-5">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="font-medium pb-5">
+                                <a href="">Examples</a>
+                            </li>
+                            <li class="font-medium pb-5">
+                                <a href="">Pricing</a>
+                            </li>
+                            <li class="font-medium">
+                                <a href="">Updates</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="text-xl font-medium pb-10">About</h3>
+                        <ul>
+                            <li class="font-medium pb-5">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="font-medium pb-5">
+                                <a href="">Examples</a>
+                            </li>
+                            <li class="font-medium pb-5">
+                                <a href="">Pricing</a>
+                            </li>
+                            <li class="font-medium">
+                                <a href="">Updates</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="pb-16">
-                    <h3 class="text-xl font-medium pb-10">Resources</h3>
-                    <ul>
-                        <li class="font-medium pb-5">
-                            <a href="">Home</a>
-                        </li>
-                        <li class="font-medium pb-5">
-                            <a href="">Examples</a>
-                        </li>
-                        <li class="font-medium pb-5">
-                            <a href="">Pricing</a>
-                        </li>
-                        <li class="font-medium">
-                            <a href="">Updates</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pb-16">
-                    <h3 class="text-xl font-medium pb-10">About</h3>
-                    <ul>
-                        <li class="font-medium pb-5">
-                            <a href="">Home</a>
-                        </li>
-                        <li class="font-medium pb-5">
-                            <a href="">Examples</a>
-                        </li>
-                        <li class="font-medium pb-5">
-                            <a href="">Pricing</a>
-                        </li>
-                        <li class="font-medium">
-                            <a href="">Updates</a>
-                        </li>
-                    </ul>
-                </div>
+
                 <div>
                     <div class="flex pb-2.5">
                         <img src="/footer/pin.svg" alt="" class="w-9" />
