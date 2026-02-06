@@ -3,7 +3,7 @@ export default function Footer() {
         <section class="footer-section" id="footer-section">
             <footer class="flex text-start flex-col py-24 px-18 lg:flex-row lg:justify-between lg:px-64">
                 <div class="flex flex-col gap-16 pb-16 lg:flex lg:flex-row lg:pb-0">
-                    <div class="">
+                    <div class="footer-links">
                         <h3 class="text-xl font-medium pb-10">Fingertipe</h3>
                         <ul>
                             <li class="font-medium pb-5">
@@ -20,7 +20,7 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div class="">
+                    <div class="footer-links">
                         <h3 class="text-xl font-medium pb-10">Resources</h3>
                         <ul>
                             <li class="font-medium pb-5">
@@ -37,7 +37,7 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div class="">
+                    <div class="footer-links">
                         <h3 class="text-xl font-medium pb-10">About</h3>
                         <ul>
                             <li class="font-medium pb-5">

@@ -1,3 +1,18 @@
 .footer-section {
     background-color: var(--dark-background);
+
+    .footer-links {
+        ul {
+            li {
+                a {
+                    border-bottom: 2px solid transparent;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        border-bottom: 2px solid #fff;
+                    }
+                }
+            }
+        }
+    }
 }
