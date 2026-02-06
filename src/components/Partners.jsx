@@ -4,9 +4,12 @@ export default function Partners() {
             <div class="flex text-center flex-col pt-36 px-12">
                 <div class="partners-texts">
                     <h1 class="text-5xl pb-4 font-light">Partners</h1>
-                    <p class="text-xl font-light">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                    <p class="text-xl font-light">
+                        We focus on ergonomics and meeting you where you work. <br class="hidden lg:block" />
+                        It's only a keystroke away.
+                    </p>
                 </div>
-                <div class="partners-logos flex flex-col gap-12">
+                <div class="partners-logos flex flex-col gap-12 lg:flex-row lg:justify-center">
                     <div>
                         <ul class="flex gap-12">
                             <li>
