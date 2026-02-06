@@ -10,7 +10,7 @@ export default function Navbar() {
                     <img src="/navbar/logo-dark.svg" alt="Figma Land Logo" />
                 </Link>
                 <ul
-                    className={`flex flex-col absolute top-16 right-0
+                    className={`flex flex-col fixed top-16 right-0
                     w-56 h-54
                     p-6 gap-6 shadow-xl
                     transform transition-transform duration-300
