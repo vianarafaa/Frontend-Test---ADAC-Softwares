@@ -9,12 +9,29 @@
 
         .features-blocks {
             .features-icons {
-                width: 10%;
+                width: 11%;
             }
-
-            &:nth-child(4) {
+            &:nth-child(3) {
                 .features-icons {
-                    width: 12%;
+                    width: 15%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .features-section {
+        .features {
+            .features-blocks {
+                .features-icons {
+                    width: 15%;
+                }
+
+                &:nth-child(3) {
+                    .features-icons {
+                        width: 19%;
+                    }
                 }
             }
         }

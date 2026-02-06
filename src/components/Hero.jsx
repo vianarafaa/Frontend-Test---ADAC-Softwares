@@ -12,7 +12,8 @@ export default function Hero() {
                 <button class="learn-btn py-5 px-10 font-medium">Learn More</button>
             </div>
             <div class="img-wrapper relative">
-                <img src="/hero/screens.svg" alt="App screens image" class="block w-full" />
+                <img src="/hero/screens.svg" alt="App screens image" class="block w-full lg:hidden" />
+                <img src="/hero/screens-lg.svg" alt="App screens image" class="hidden lg:block self-center w-full" />
             </div>
         </section>
     )
