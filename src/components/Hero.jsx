@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section class="hero-section" id="hero-section">
-            <div class="hero-texts flex text-center flex-col p-14">
+            <div class="hero-texts flex text-center flex-col p-14 pt-28">
                 <h1 class="text-5xl pb-4 font-light lg:font-medium lg:text-7xl">Work at the speed of thought.</h1>
                 <p class="text-xl font-light lg:font-normal">
                     Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
